@@ -1,88 +1,47 @@
-# [JSL03] Project Submission: Which one is which? Declarative or Imperative?!
+# Project Title: Declarative vs. Imperative Programming Demonstration
 
-Loom Recording Link: [Insert Link]
+[Loom Presentation Link](https://www.loom.com/share/85549e8d2cb54237818b3b292e074870?sid=a529c18f-a29c-4b5b-803e-df18b0923d8e)
 
-# Project Overview
+## Project Overview
 
-In this project, you will be presented with two JavaScript code examples, each demonstrating a different programming paradigm: imperative and declarative. Your task is to analyse these examples and determine which one follows an imperative programming style and which one follows a declarative programming style. 
+This project explores two distinct programming paradigms: **Declarative** and **Imperative**. Using the example of cooking a steak, the project demonstrates how both paradigms approach the same task with different methodologies—**control flow**, **state management**, and **execution style**.
 
-You will present your reasoning for each example, record your presentation using Loom, and submit your findings along with the Loom recording to the Project Tab on the Learning Management System (LMS).
+## Table of Contents
 
-# Instructions
+- [Declarative Approach](#declarative-approach)
+- [Imperative Approach](#imperative-approach)
+- [Usage](#usage)
+- [Conclusion](#conclusion)
 
-## Step 1: Clone the Repository
+## Declarative Approach
 
-Repo Link: https://github.com/CodeSpace-Academy/Module_3_StudentNo_Classcode_Group_Name-Surname_JSL03
+In the **declarative approach**, the focus is on describing the desired outcome without specifying every detailed step of how to achieve it. The steps in the cooking process, such as preheating the grill and seasoning the steak, are clearly defined, but the actual implementation is abstracted away.
 
-1. Access the provided repository containing the starter code and presentation template.
-2. Clone the repository.
-3. Open the cloned repository in your preferred code editor.
+### Key Features:
+- **Implicit Coercion**: The language handles data type conversions without explicit instructions.
+- **Action Descriptions**: Each action in the process is described, such as preheating or seasoning.
+- **High-Level Abstraction**: The focus is on **what** needs to happen rather than the technical details.
+- **Declarative Execution**: The process outlines **what** needs to be done at each stage without specifying the details of how to perform it.
 
-## Step 2: Analyze the Examples
+## Imperative Approach
 
-1. In the cloned repository, you will find two JavaScript code examples labeled "Example 1" and "Example 2."
-2. Examine each code example and determine which one follows an imperative programming style and which one follows a declarative programming style.
+In the **imperative approach**, every step in the process is explicitly defined and controlled. This approach ensures that each action, such as preheating, seasoning, or cooking the steak, is performed in a precise sequence, with direct manipulation of state throughout the process.
 
-## Step 3: Record Your Presentation
+### Key Features:
+- **Explicit Coercion**: The code controls the flow of operations and data conversion.
+- **Step-by-Step Execution**: Each action is carried out in a clear, specified order.
+- **State Modification**: Variables are modified throughout the process to track progress, such as the grill or steak temperature.
+- **Decision-Making with Conditionals**: The code uses explicit conditions to make decisions, like whether the steak is done or not.
 
-1. Use Loom (https://www.loom.com/).
-2. Create a single video presentation for both examples that include the following:
+## Usage
 
-   - Introduction of the example number.
-   - Explanation of whether the example is imperative or declarative.
-   - Detailed reasoning for your choice, discussing the code logic and style used in the example.
-   - Mention any specific code structures or patterns that align with the chosen programming paradigm.
-   
-3. Keep each video presentation concise, with a maximum length of 2 minutes for each example. Your total recording time should not exceed 5 minutes.
+To run the examples, copy the code into a JavaScript environment, such as a browser's Developer Console or a Node.js environment. The cooking process will be logged, illustrating how each paradigm handles the task differently.
 
-## Step 4: Insert Loom Links
+## Conclusion
 
-1. After recording, upload your presentation videos to Loom.
-2. Obtain the Loom recording links for the video presentation.
-3. Edit the `README.md` file in the cloned repository and insert the Loom recording links.
-   
-## Step 5: Submit Your Project
-1. Commit your changes to the Git repository and push them to your GitHub account.
-2. Ensure that the repository is public so that it can be accessed.
-3. Submit the GitHub project link (URL) that includes your Loom recording link to the [JSL03] Project Tab on the LMS for evaluation.
+This project highlights the differences between **declarative** and **imperative** programming:
 
-# Project Evaluation
+- The **declarative approach** emphasizes **what** needs to be done, making it more abstract and easier to manage in some contexts.
+- The **imperative approach** provides precise control over **how** tasks are executed, with detailed instructions at every step.
 
-Your project will be evaluated based on your ability to:
-
-- Accurately identify and differentiate between imperative and declarative programming styles.
-- Provide clear and well-reasoned explanations for your choices.
-- Present your findings concisely within the specified time limit.
-- Follow the submission instructions accurately.
-
-Follow the steps outlined above to complete the project successfully.
-
-# Presentation Talking Points
-
-Example #: [Insert Example Number]
-
-## Imperative Approach [2 Minutes]
-1. **Step-by-Step Explanation:** Start by explaining the code logic in the imperative approach.
-   - Mention each step of the process in the code.
-   - Describe how the code provides explicit instructions for each action.
-   - Discuss the use of variables to track the state and progress of the process.
-
-2. **Emphasis on How:** Highlight how the imperative approach focuses on detailing "how" the task is accomplished.
-   - Point out the use of loops, conditions, and explicit instructions.
-   - Discuss any mutable variables or states that change during execution.
-
-
-Example #: [Insert Example Number]
-
-## Declarative Approach [2 Minutes]
-1. **High-Level Process Description:** Explain the code logic in the declarative approach.
-   - Describe the cooking process in a high-level, abstract manner.
-   - Emphasize that the code defines "what" should happen rather than "how" it should happen.
-
-2. **Use of Data Structures:** Discuss the use of data structures (e.g., arrays, objects) to represent the process steps.
-   - Explain how the process steps are organized in a structured format.
-   - Mention any abstraction layers or functions used to encapsulate actions.
-
-# Learning Outcome [1 Minute]
-- Reflect on what you've learned from analyzing these code examples in different paradigms.
-
+Understanding both approaches allows developers to choose the appropriate style based on the specific problem they are solving.
