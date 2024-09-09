@@ -1,6 +1,7 @@
 # Project Title: Declarative vs. Imperative Programming Demonstration
 
-[Loom Presentation Link](https://www.loom.com/share/85549e8d2cb54237818b3b292e074870?sid=a529c18f-a29c-4b5b-803e-df18b0923d8e)
+[Loom Presentation Link] (https://www.loom.com/share/343fce1f356c4a54af072ebc970d8f0c?sid=30a36d7a-87fe-4e6f-9738-5e36eacc3938) Preferred Version
+(https://www.loom.com/share/85549e8d2cb54237818b3b292e074870?sid=a529c18f-a29c-4b5b-803e-df18b0923d8e)
 
 ## Project Overview
 
